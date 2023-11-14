@@ -7,22 +7,22 @@ int main (){
     while (r<=tr){
         int sp=1;
         while(sp<=tr-r){
-            cout<<' ';
+            cout<<' '<<' ';
             sp++;
 
         }
-        int no=1;
+        int no=r;
         int st=1;
         while(st<=r){
-            cout<<no;
+            cout<<no<<' ';
             st++;
             no++;
 
         }
-        int no2=r-1;
+        int no2=no-2;
         int st2=1;
         while (st2<=r-1){
-            cout<<no2;
+            cout<<no2<<' ';
             st2++;
             no2--;
         }
